@@ -6,6 +6,10 @@
 
 /* LỆNH CHUYỂN LAYOUT KHI MÀN HÌNH CHUYỂN SANG ĐỘ RỘNG NHỎ HƠN 767px */
 
+[class*="col-"] {
+  width: 100%;
+}
+
 @media (max-width: 767px) {
   /* #banner::after { */
   /* content: "Dành cho Mobile"; */
