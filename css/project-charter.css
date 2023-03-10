@@ -1,0 +1,80 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 24px;
+}
+.col h1,
+.col h2 {
+  color: rgba(var(--bs-primary-rgb));
+}
+.icon-flag {
+  width: 32px;
+}
+.team-icon {
+  width: 32px;
+}
+.primary-icon {
+  width: 32px;
+}
+p {
+  font-size: 14px;
+}
+.number {
+  width: 32px;
+  height: 32px;
+}
+.lorem-5 {
+  font-size: 14px;
+}
+.col h6 {
+  font-size: 16px;
+}
+.line-1 {
+  height: 1px;
+
+  background-color: rgb(65, 168, 65);
+
+  margin-bottom: 16px;
+  transform: scale(0.95);
+}
+.line-2 {
+  height: 1px;
+  background-color: rgb(136, 218, 136);
+  transform: scale(0.95);
+  margin-bottom: 16px;
+}
+.line-3 {
+  height: 1px;
+
+  background-color: rgb(65, 168, 65);
+
+  margin-bottom: 16px;
+  transform: scale(0.9);
+}
+.line-4 {
+  height: 1px;
+  background-color: rgb(136, 218, 136);
+  margin-right: 10px;
+  margin-bottom: 16px;
+}
+.line-5 {
+  height: 1px;
+
+  background-color: rgb(65, 168, 65);
+
+  margin-bottom: 16px;
+  transform: scale(0.9);
+}
+.btn {
+  position: fixed;
+  right: 48px;
+  bottom: 48px;
+}
+h3 a {
+  text-decoration: none;
+  font-weight: 500;
+}
